@@ -1,0 +1,82 @@
+ .register-body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+     height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://img.freepik.com/free-vector/geometric-gradient-futuristic-background_23-2149116406.jpg");
+    background-size: 100% 100%;
+  } 
+   
+  .register-container {
+    width: 100%;
+    max-width: 400px;
+    background: white;
+    margin-right: 80px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    background-color: rgb(143, 164, 187);
+  }
+  
+ .register-container h3 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+  } 
+
+  /* Form Styling */
+  .register-container label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: block; /* Ensures labels are above inputs */
+   }
+  .register-container input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    box-sizing: border-box;
+  } */
+  
+  /* Button Styling */
+  .register-container .btn {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+  }
+   .register-container .btn:hover {
+    background-color: #0056b3;
+  }
+   */
+  /* Text Links */
+ .register-container p {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 14px;
+  }
+  
+  .register-container p a {
+    text-decoration: none;
+    color: #007bff;
+  }
+  
+  .register-container p a:hover {
+    text-decoration: underline;
+  }.register-container form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
